@@ -1,9 +1,15 @@
 <?php
 
 use Illuminate\Support\Str;
-
+// xdebug_break();
 return [
-
+    'paths' => [
+        'migrations' => [
+            dirname(__FILE__).'/../vendor/example/schema/database/migrations',
+            dirname(__FILE__).'/../database/migrations',
+        ],
+    ],
+    // 'path' => dirname(__FILE__).'/vendor/example/schema/database/migrations',
     /*
     |--------------------------------------------------------------------------
     | Default Database Connection Name
