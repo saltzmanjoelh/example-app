@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "549c2c25c6910666ad52202a595dbefe",
+    "content-hash": "ec55139ef9de33e061cf6875534918a5",
     "packages": [
         {
             "name": "brick/math",
@@ -436,10 +436,16 @@
         {
             "name": "example/schema",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/saltzmanjoelh/example-schema.git",
+                "reference": "3920b52b65ab0c1614d7175d146fd74261d43336"
+            },
             "dist": {
-                "type": "path",
-                "url": "../schema",
-                "reference": "ea0668704045e7df610ce8cafb182c05da1a5f59"
+                "type": "zip",
+                "url": "https://api.github.com/repos/saltzmanjoelh/example-schema/zipball/3920b52b65ab0c1614d7175d146fd74261d43336",
+                "reference": "3920b52b65ab0c1614d7175d146fd74261d43336",
+                "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^7.2",
@@ -457,6 +463,7 @@
                 "phpunit/phpunit": "^10.0",
                 "spatie/laravel-ignition": "^2.0"
             },
+            "default-branch": true,
             "type": "project",
             "extra": {
                 "laravel": {
@@ -501,9 +508,11 @@
                 "framework",
                 "laravel"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/saltzmanjoelh/example-schema/tree/main",
+                "issues": "https://github.com/saltzmanjoelh/example-schema/issues"
+            },
+            "time": "2023-04-06T01:52:54+00:00"
         },
         {
             "name": "fruitcake/php-cors",
